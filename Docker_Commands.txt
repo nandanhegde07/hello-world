@@ -1,0 +1,37 @@
+//Basic docker commands
+docker version
+docker --version
+docker run --help
+dokcer pull <image name>:version    >>>> version optional
+docker info 
+docker images
+docker history <image name>
+docker rmi <image name>
+docker run --name <name> -d <image>  >>> name:name for service , d:to run in background
+docker search <image name> | head -10
+docker ps
+docker inspect <container name>
+docker stats <container name>
+docker pause <container name>
+docker unpause <container name>
+docker kill <container name>
+docker start <container name>
+docker stop <container name>
+docker ps -a
+docker rm <container name>
+docker container prune
+docker export <container name> > <file name>
+docker import <remote URL/image name.tar>
+service docker stop
+service docker start
+service docker status
+service docker restart
+
+--------------------------------
+DOCKER INSTALLATION:
+--------------------------------
+$ sudo curl -sSL https://get.docker.io/|sh
+
+To uninstall:
+-------------
+$ sudo apt-get purge docker-ce
